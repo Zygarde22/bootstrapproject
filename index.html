@@ -25,17 +25,14 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Portfolio and Socials
+                Portfolio and Links
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Writing Portfolio</a></li>
                 <li><a class="dropdown-item" href="#">Coding Portfolio</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">YouTube</a></li>
+                <li><a class="dropdown-item" href="#">Projects</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-             
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -45,18 +42,79 @@
         </div>
       </div>
     </nav>
-    <h1>Khriston Robinson</h1>
-    <p>Writer, coder, Lets Player </p>
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Writing</th>
-          <th scope="col">Codeing</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
+
+    <!-- Carousel goes here -->
+    <div class="container my-4">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="cj.jpg" class="d-block w-100 w-md-50 img-fluid" alt="image of CJ">
+          </div>
+          <div class="carousel-item">
+            <img src="khriston1.jpg" class="d-block w-100 w-md-50 img-fluid" alt="A picture of me">
+          </div>
+          <div class="carousel-item">
+            <img src="khriston2.jpg" class="d-block w-100 w-md-50 img-fluid" alt="another pic of me">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- About, Projects, Contact sections using Grid -->
+    <div class="container">
+      <div class="row">
+        <!-- About Section -->
+        <div class="col-md-4">
+          <h2>About Me</h2>
+          <p>Here’s a little bit about me. I’m a writer, coder, and Let's Player!</p>
+        </div>
         
-        </tr>
-      </tbody>
-    </table>
+        <!-- Projects Section -->
+        <div class="col-md-4">
+          <h2>Projects</h2>
+          <div class="card">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">This is a description of my first project.</p>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <img src="project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">This is a description of my second project.</p>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <img src="project3.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">This is a description of my third project.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="col-md-4">
+          <h2>Contact</h2>
+          <p>If you'd like to reach out, feel free to contact me at: <a href="mailto:khristonrobinson@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center mt-4">
+      <p>&copy; 2024 Khriston Robinson</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
   </body>
 </html>
